@@ -5,6 +5,6 @@ param([Parameter(Mandatory)]$ApiKey, [Parameter(Mandatory)]$Token,
 claude mcp add trello --scope user `
   -e TRELLO_API_KEY=$ApiKey -e TRELLO_TOKEN=$Token -e TRELLO_ALLOWED_WORKSPACES=$Workspaces `
   -- npx -y @delorenj/mcp-server-trello
-claude plugin marketplace add "$PSScriptRoot\plugin"
+claude plugin marketplace add "$PSScriptRoot"
 claude plugin install trello@dbhq
 Write-Host "Xong. Thoát và mở lại Claude Code để MCP nạp env."
