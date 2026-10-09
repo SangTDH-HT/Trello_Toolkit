@@ -1,0 +1,5 @@
+{
+  "name": "dbhq",
+  "owner": { "name": "Sang" },
+  "plugins": [ { "name": "trello", "source": "./plugin" } ]
+}
